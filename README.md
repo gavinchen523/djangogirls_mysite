@@ -24,4 +24,8 @@ python manage.py startapp blog
 python manage.py makemigrations blog
 python manage.py migrate blog
 
+# Django admin
+  -> change blog/admin.py
+python manage.py createsuperuser
+open "http://127.0.0.1:8000/
 
