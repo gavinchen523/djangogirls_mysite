@@ -42,5 +42,11 @@ open "http://127.0.0.1:8000/"
   -> change blog/views.py
   -> change blog/templates/blog/post_list.html
 
+#CSS - make it pretty!
+  -> mkdir -p blog/static/css
+  -> add blog/static/css/blog.css
+  -> change blog/templates/blog/post_list.html
+
+
 
 
