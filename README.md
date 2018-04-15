@@ -38,7 +38,9 @@ open "http://127.0.0.1:8000/admin"
 open "http://127.0.0.1:8000/" 
   -> show "blog/templates/blog/post_list.html"
 
-
+# Dynamic data in templates
+  -> change blog/views.py
+  -> change blog/templates/blog/post_list.html
 
 
 
