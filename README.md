@@ -27,5 +27,18 @@ python manage.py migrate blog
 # Django admin
   -> change blog/admin.py
 python manage.py createsuperuser
-open "http://127.0.0.1:8000/
+open "http://127.0.0.1:8000/admin"
+
+# Django urls
+  -> change mysite/urls.py
+  -> add blog/urls.py
+  -> change blog/views.py
+  -> mkdir -p blog/templates/blog
+  -> add blog/templates/blog/post_list.html
+open "http://127.0.0.1:8000/" 
+  -> show "blog/templates/blog/post_list.html"
+
+
+
+
 
