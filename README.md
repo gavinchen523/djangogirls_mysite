@@ -61,5 +61,10 @@ open "http://127.0.0.1:8000/"
   -> modify blog/views.py
   -> add blog/templates/blog/post_detail.html
 
-
-
+# Django Forms
+  -> add blog/forms.py
+  -> modify blog/templates/blog/base.html
+  -> modify blog/urls.py
+  -> modify blog/views.py
+  -> add blog/templates/blog/post_edit.html
+  -> add blog/templaes/blog/post_detail.htlm
