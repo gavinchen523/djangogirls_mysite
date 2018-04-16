@@ -55,6 +55,11 @@ open "http://127.0.0.1:8000/"
   -> add blog/templates/blog/base.html
   -> modify blog/templates/blog/post_list.html
 
+# Extend your application
+#pk -> primaru key
+  -> modify blog/urls.py
+  -> modify blog/views.py
+  -> add blog/templates/blog/post_detail.html
 
 
 
